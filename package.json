@@ -54,6 +54,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:treelinehq/machinepack-mysql.git"
+    "url": "git@github.com:cybot/machinepack-mysql.git"
   }
 }
