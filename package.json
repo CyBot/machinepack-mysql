@@ -1,10 +1,10 @@
 {
   "name": "machinepack-mysql",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "description": "Structured Node.js bindings for MySQL.",
   "scripts": {
-    "test": "node ./node_modules/mocha/bin/mocha --recursive",
-    "fasttest": "node ./node_modules/mocha/bin/mocha --recursive",
+    "test": "node ./node_modules/mocha/bin/mocha --recursive --timeout 10000",
+    "fasttest": "node ./node_modules/mocha/bin/mocha --recursive --timeout 10000",
     "pretest": "npm run lint",
     "lint": "node ./node_modules/eslint/bin/eslint . --max-warnings=0",
     "docker": "docker-compose run adapter bash"
@@ -23,7 +23,7 @@
     "debug": "2.6.9",
     "@sailshq/lodash": "^3.10.2",
     "machine": "^15.0.0",
-    "mysql": "2.10.2",
+    "mysql": "2.15.0",
     "waterline-sql-builder": "^1.0.0-2"
   },
   "devDependencies": {
